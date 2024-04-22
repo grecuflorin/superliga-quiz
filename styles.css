@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    background-color: #1B243D;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 800;
+}
+
+header {
+    background-color: #111626;
+    color: #D8D8D8;
+    text-align: center;
+    padding: 4vmax;
+    font-size: 0.8em;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.player-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vmax;
+}
+
+.number {
+    display: block;
+    color: #D8D8D8;
+    font-size: 3vmax;
+    background-color: #2B375A;
+    padding: 0.4em;
+    width: 2em;
+    height: 2em;
+    border: 1px solid #2B375A;
+    border-radius: 50%;
+}
+
+
+.player{
+    margin-left: 1.5em;
+    color: #D8D8D8;
+    font-size: 1.5em;
+    overflow-wrap: break-word;
+}
+
+.skip-btn {
+    margin-left: 2em;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #D8D8D8;
+    background-color: #2B375A;
+    border: 1px solid #2B375A;
+    border-radius: 20px;
+    padding: 1em;   
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B375A;
+    height: 8vmax;
+    width: 8vmax;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmax;
+    margin-bottom: 1vmax;
+}
+.second-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmax;
+    margin-bottom: 1vmax;
+}
+.third-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmax;
+    margin-bottom: 1vmax;
+}
+.fourth-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmax;
+    margin-bottom: 1vmax;
+}
+
+
+.team-logo {
+    width: 4vmax;
+}
+
+#poli-iasi, #fcu-1948-craiova {
+    width: 3vmax;
+}
+
+.play-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.play-btn {
+    background-color: #2B375A;
+    font-size: 2vmax;
+    font-weight: 800;
+    padding: 2vmax 4vmax;
+    border: none;
+    border-radius: 20px;
+    color: #D8D8D8;
+}
+.reset-btn {
+    background-color: #2B375A;
+    width: 6vmax;
+    padding: 1.2vmax 1.2vmax;
+    border-radius: 20px;
+}
+.mistake {
+    width: 4vmax;
+    height: 4vmax;
+    border-radius: 50%;
+    border: 1px solid #2B375A;
+    background-color: #1B243D;
+}
+
+.mistakes-section {
+    gap: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vmax;
+}
+
+
+@media screen and (min-width: 1300px) {
+    span {
+        width: 6vmax;
+        height: 6vmax;
+    }
+
+    .team-logo {
+        width: 3vmax;
+    }
+    #poli-iasi {
+        width: 2vmax;
+    }
+
+    .mistake {
+        height: 2vmax;
+        width: 2vmax;
+    }
+
+    .play-btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 1vmax;
+        padding: 1vmax 2vmax;
+    }
+
+    .reset-btn {
+        width: 3.2vmax;
+        padding: 0.8vmax;
+    }
+
+    header {
+        padding: 3vmax;
+    }
+
+    .number {
+        font-size: 1.5vmax;
+    }
+
+    .player {
+        font-size: 1.6vmax;
+        margin-left: 1vmax;
+    }
+
+    .player-info {
+        margin: 2vmax;
+    }
+}
